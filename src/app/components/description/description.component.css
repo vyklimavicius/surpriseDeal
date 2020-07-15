@@ -3,4 +3,12 @@
   width: 50vw;
 }
 
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
 
