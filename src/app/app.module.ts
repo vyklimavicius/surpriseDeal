@@ -6,7 +6,7 @@ import { DescriptionComponent } from './components/description/description.compo
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
-import { MatDialog } from '@angular/material/dialog';
+import { MatDialogModule } from '@angular/material/dialog';
 import { ProductImageComponent } from './components/product.image/product.image.component';
 import { TutorialComponent } from './components/tutorial/tutorial.component';
 
@@ -22,7 +22,7 @@ import { TutorialComponent } from './components/tutorial/tutorial.component';
     BrowserAnimationsModule,
     MatCardModule,
     MatButtonModule,
-    MatDialog,
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
