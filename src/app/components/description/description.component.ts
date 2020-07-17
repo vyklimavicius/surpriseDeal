@@ -12,4 +12,6 @@ export class DescriptionComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  imageUrl:String;
+
 }
