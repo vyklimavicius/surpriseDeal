@@ -11,6 +11,7 @@
 .image-card{
   width: 394px;
   height: 394px;
+  align-self: center;
 }
 
 
