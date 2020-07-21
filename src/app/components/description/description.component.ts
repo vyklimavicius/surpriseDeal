@@ -1,3 +1,5 @@
+import { Product } from './../../models/product.model';
+import { ProductService } from './../../services/product.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,11 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DescriptionComponent implements OnInit {
 
-  constructor() { }
+  constructor(private productService: ProductService) { }
 
   ngOnInit(): void {
+    this.getProducts();
   }
 
-  imageUrl:String;
+  products: Product[];
+
+  getProducts(): void {
+    this.products = this.productService.getProducts();
+  }
 
 }
