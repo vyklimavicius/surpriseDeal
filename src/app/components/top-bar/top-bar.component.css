@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.top-bar {
+  margin: 0 auto;
+  margin-bottom: 1em;
+  padding: 1em;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: 'Pacifico', serif;
+  font-size: xx-large;
+  color: gold;
+  display: inline;
+}
+
+.logo:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.tutorial-button {
+  color: white;
+}
