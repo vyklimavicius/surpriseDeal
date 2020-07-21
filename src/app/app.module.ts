@@ -8,12 +8,14 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
 import { TutorialComponent } from './components/tutorial/tutorial.component';
+import { TopBarComponent } from './components/top-bar/top-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DescriptionComponent,
     TutorialComponent,
+    TopBarComponent,
   ],
   imports: [
     BrowserModule,
