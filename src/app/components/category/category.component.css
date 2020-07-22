@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+h3 {
+  margin-top: 2em;
+  font-family: 'Pacifico', sans-serif;
+  font-size: 3em;
+  color: white;
+  text-align: center;
+}
+
+.cat-name {
+  color: gold;
+}
+
+.cat-price {
+  color: gold;
+}
