@@ -1,8 +1,14 @@
+.container{
+    padding-top: 20vh;
+    display: flex;
+    justify-content: center;
+}
 .about-container {
-    margin: 25vh 25vw;
     width: 50vw;
   }
-  hr.rounded {
-    border-top: 8px solid #bbb;
-    border-radius: 5px;
-  }
+.logo {
+  font-family: 'Pacifico', serif;
+  font-size: xx-large;
+  color: black;
+  display: inline;
+}
