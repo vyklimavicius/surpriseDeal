@@ -1,12 +1,20 @@
+<div class="container">
 <mat-card class="card">
-  <img mat-card-image [src]=products[0].image alt="Product image">
-  <mat-card-title>{{products[0].name}}</mat-card-title>
-  <mat-card-subtitle>{{products[0].description}}</mat-card-subtitle>
-  <mat-card-subtitle>{{products[0].price}}</mat-card-subtitle>
-  <mat-card-subtitle>{{products[0].review}}</mat-card-subtitle>
-  <mat-card-actions class="actions">
-    <button mat-button>NEXT</button>
-    <button mat-button>SHARE</button>
-    <button mat-button>BUY</button>
-  </mat-card-actions>
+  <img class="image-card" mat-card-image [src]=products[0].image alt="Product image">
+  <mat-card-title style="font-size: 2vw; margin-bottom: 1vw">{{products[0].name}}</mat-card-title>
+  <mat-card-subtitle style="font-size: 1vw">{{products[0].description}}</mat-card-subtitle>
+  <mat-card-subtitle style="font-size: 1vw">{{products[0].price}}</mat-card-subtitle>
+  <mat-card-subtitle style="font-size: 1vw">{{products[0].review}}</mat-card-subtitle>
 </mat-card>
+</div>
+<div class="actions">
+  <button class="buttons" mat-icon-button color="link" aria-label="Heart">
+    <mat-icon style="font-size: 4vw">fast_forward</mat-icon>
+  </button>
+  <button class="buttons" mat-icon-button color="link" aria-label="Heart">
+    <mat-icon style="font-size: 4vw">share</mat-icon>
+  </button>
+  <button class="buttons" mat-icon-button color="warn" aria-label="Heart">
+    <mat-icon style="font-size: 4vw">favorite</mat-icon>
+  </button>
+</div>
