@@ -1,0 +1,8 @@
+.about-container {
+    margin: 25vh 25vw;
+    width: 50vw;
+  }
+  hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
