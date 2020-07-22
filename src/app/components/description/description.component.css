@@ -4,7 +4,9 @@
 }
 
 .card {
-  width: 50vw;
+  width: 55vw;
+  height: auto;
+  line-height: 1.0;
 }
 
 .actions {
