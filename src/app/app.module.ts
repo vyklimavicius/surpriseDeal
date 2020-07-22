@@ -11,6 +11,8 @@ import { TutorialComponent } from './components/tutorial/tutorial.component';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
 import { AboutComponent } from './components/about/about.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CategoryComponent } from './components/category/category.component';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,7 @@ import { FooterComponent } from './components/footer/footer.component';
     TopBarComponent,
     AboutComponent,
     FooterComponent,
+    CategoryComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,6 +30,7 @@ import { FooterComponent } from './components/footer/footer.component';
     MatCardModule,
     MatButtonModule,
     MatDialogModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
