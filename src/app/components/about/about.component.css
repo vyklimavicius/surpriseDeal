@@ -11,12 +11,12 @@
     width: 50vw;
   }
 .header {
-  font-family: 'Kanit';
+  font-family: 'Kanit', sans-serif;
   font-size: xx-large;
   color: black;
   display: inline;
 }
 h1{
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: large;
 }
